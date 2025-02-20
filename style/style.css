@@ -401,10 +401,4 @@ footer {
   .menu-top-project {
     margin: 2rem 0;
   }
-  footer {
-    display: none;
-  }
-  .sourcegit {
-    display: block;
-  }
 }
