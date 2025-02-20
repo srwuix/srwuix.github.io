@@ -324,9 +324,9 @@ header .btn {
   width: 100%;
   height: auto;
 }
-.sourcecode {
+.sourcegit {
   display: none;
-  margin: 0 1rem;
+  margin: 0 auto;
 }
 footer {
   text-align: center;
@@ -405,11 +405,10 @@ footer {
   .menu-top-project {
     margin: 2rem 0;
   }
-  .sourcecode {
-    display: block;
-    margin: 0 1rem;
-  }
   footer {
     display: none;
+  }
+  .sourcegit {
+    display: block;
   }
 }
