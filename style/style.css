@@ -176,6 +176,7 @@ header .btn {
 .icon-info {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 .icon-info .bx {
@@ -323,9 +324,9 @@ header .btn {
   width: 100%;
   height: auto;
 }
-.sourcegit {
+.sourcecode {
   display: none;
-  margin: 0 auto;
+  margin: 0 1rem;
 }
 footer {
   text-align: center;
@@ -404,10 +405,11 @@ footer {
   .menu-top-project {
     margin: 2rem 0;
   }
+  .sourcecode {
+    display: block;
+    margin: 0 1rem;
+  }
   footer {
     display: none;
-  }
-  .sourcegit {
-    display: block;
   }
 }
