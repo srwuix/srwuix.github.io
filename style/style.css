@@ -176,6 +176,7 @@ header .btn {
 .icon-info {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 .icon-info .bx {
@@ -322,10 +323,6 @@ header .btn {
 .project-posts-content .project-post-items .imgsize {
   width: 100%;
   height: auto;
-}
-.sourcegit {
-  display: none;
-  margin: 0 auto;
 }
 footer {
   text-align: center;
