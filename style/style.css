@@ -405,7 +405,7 @@ footer {
   .menu-top-project {
     margin: 2rem 0;
   }
-  footer {
+  footer .col-box p{
     display: none;
   }
   .sourcegit {
